@@ -1,0 +1,113 @@
+<!--
+    Name: Manminder Singh
+    Student Number: 8973914
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Neil Armstrong</title>
+</head>
+<body>
+    <header>
+        <h1>Neil Armstrong</h1>
+    </header>
+    <main>
+        <section id="biography">
+            <h2>Biography</h2>
+            <blockquote cite="https://en.wikipedia.org/wiki/Neil_Armstrong">
+                <p>Neil Alden Armstrong (August 5, 1930 – August 25, 2012) was an American astronaut and aeronautical engineer 
+                    who in 1969 became the first person to walk on the Moon. He was also a naval aviator, test pilot, and 
+                    university professor.</p>
+            </blockquote>
+            <figure>
+                <img src="images/Neil Armstrong.webp" alt="Neil Armstrong">
+                <figcaption>Neil before going to the Moon in 1969</figcaption>
+            </figure>
+        </section>
+        <section id="quotes">
+            <h2>Quotes</h2>
+            <p><q cite="https://www.brainyquote.com/quotes/neil_armstrong_100906">That's one small step for man, one giant leap for mankind.</q> - <cite>Neil Armstrong</cite></p>
+        </section>
+        <section id="video">
+            <h2>Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2rLPC8zYfYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section id="resources">
+            <h2>Resources</h2>
+            <aside>
+                <section id="external-links">
+                    <h2>External Links</h2>
+                    <ul>
+                        <li><a href="https://www.nasa.gov/humans-in-space/astronauts/former-astronauts/former-astronaut-neil-a-armstrong/" target="_blank" title="NASA Official Site">NASA</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Neil_Armstrong" target="_blank" title="Wikipedia Page">Wikipedia</a></li>
+                        <li><a href="https://www.space.com/15519-neil-armstrong-man-moon.html" target="_blank" title="Space.com Article">Space.com</a></li>
+                    </ul>
+                </section>
+                <section id="contact">
+                    <h2>Contact</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" id="name" name="name" class="input-field form-control" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" id="email" name="email" class="input-field form-control" required placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone:</label>
+                            <input type="tel" id="phone" name="phone" class="input-field form-control" required placeholder="Enter your phone number">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-method" class="form-label">Preferred Method of Contact:</label>
+                            <select id="contact-method" name="contact-method" class="input-field form-control">
+                                <option value="email" selected>Email</option>
+                                <option value="phone">Phone</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message:</label>
+                            <textarea id="message" name="message" class="input-field form-control" placeholder="Type your message here"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="submit-button">Submit</button>
+                        </div>
+                    </form>
+                </section>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 by Manminder Singh. All rights reserved.</p>
+    </footer>
+    <style>
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .input-field {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .submit-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .submit-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</body>
+</html>
+
